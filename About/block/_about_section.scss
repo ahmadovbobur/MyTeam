@@ -1,0 +1,88 @@
+.section2 {
+    background-color: #012F34;
+    padding-top: 140px;
+    padding-bottom: 150px;
+    &_title {
+        font-family: Livvic Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        @media only screen and (max-width: 573px) {
+        font-size: 32px;
+        line-height: 32px;
+        }
+    }
+    &_clients {
+        margin-top: 70px !important;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-width: 573px) {
+            display: inline-block;
+        }        
+    }
+}
+
+.section2_clients_img1 {
+    @media only screen and (max-width: 573px) {
+        display: block;
+        width: 168px;
+        margin: 0 auto;
+        margin-bottom: 56px;
+    }
+}
+
+.section2_clients img{
+    width: 100px;
+    height: 17px;
+}
+
+.main_section3 {
+    background: #F67E7E;
+    padding: 76px 0;
+    background-image: url('../images/footer-img.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    @media only screen and (max-width: 573px) { 
+        padding: 150px 0;
+    }
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_title {
+            font-family: Livvic Bold;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+            color: #012F34;
+            @media only screen and (max-width: 573px) { 
+                text-align: center;
+                margin-bottom: 32px;
+            }    
+        }
+        &_link a{
+            text-decoration: none;
+            font-family: Livvic Regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: #012F34;
+            border: 2px solid #012F34;
+            box-sizing: border-box;
+            border-radius: 24px;
+            padding: 9px 33px 11px 32px;
+            @media only screen and (max-width: 573px) { 
+                margin: 25%;
+        }
+    }
+    @media only screen and (max-width: 573px) { 
+        display: block;
+    }
+}
+}

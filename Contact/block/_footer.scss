@@ -1,0 +1,87 @@
+.footer {
+    background: #002529;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    &_leftright {
+        display: flex;
+        justify-content: space-between;
+        &_left {
+            display: flex;
+            &_logo {
+                @media only screen and (max-width: 573px) { 
+                    text-align: center;
+                }        
+                &_links {
+                    margin-top: 25px;
+                    @media only screen and (max-width: 573px) { 
+                        margin-top: 10px;
+                    }            
+                }
+                &_links a {
+                    text-decoration: none;
+                    font-family: Livvic Regular;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                    &:nth-child(2) {
+                        margin-left: 40px;
+                    }
+                }
+            }
+            &_text {
+                font-family: Livvic Regular;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.6;
+                margin-left: 125px;
+                @media only screen and (max-width: 573px) { 
+                    text-align: center;
+                    margin-left: 2px;
+                    margin-top: 24px;
+                    margin-bottom: 24px;
+                }        
+            }
+            @media only screen and (max-width: 573px) { 
+                display: block;
+            }    
+        }
+        &_right img{
+            margin-left: 16px;
+        }
+        &_right a {
+            text-decoration: none;
+            @media only screen and (max-width: 573px) { 
+                padding-left: 30%;
+            }    
+        }
+        &_right {
+            &_text {
+                font-family: Livvic Regular;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: right;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.6;
+                margin-top: 51px;
+                @media only screen and (max-width: 573px) { 
+                    text-align: center;
+                    margin-left: 2px;
+                    margin-top: 24px;
+                    margin-bottom: 24px; 
+                }        
+            }
+        }
+        @media only screen and (max-width: 573px) { 
+            display: block;
+        }    
+    }
+}

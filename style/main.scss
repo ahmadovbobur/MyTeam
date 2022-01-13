@@ -1,0 +1,390 @@
+@import "../block/section2_and_3";
+@import"../block/footer" ;
+
+body {
+    font-family: Livvic , sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    @media only screen and (max-width: 1040px) {
+        width: 100%;
+    }
+    @media only screen and (max-width: 573px) {
+        width: 100%;
+    }
+
+}
+
+.header  {
+    background:#014E56;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('../images/Group8.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    @media only screen and (max-width: 573px) {
+        background-image: url('../images/Group_7_fon.svg');
+    }
+    &_section1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 77px;
+        &_logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @media only screen and (max-width: 573px) {
+            }
+        }
+        &_list {
+            list-style-type: none;
+            display: flex;
+            margin-left: 60px;
+            &_item {
+                margin-left: 20px;
+                @media only screen and (max-width: 573px) {
+                    display: none;
+                }
+            }
+            &_item a{
+                font-family: Livvic Regular;
+                text-decoration: none;
+                font-family: Livvic;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+        }
+        @media only screen and (max-width: 1040px) {
+           display: flex;
+           justify-content: space-between;
+           width: 100%;
+        }
+    
+    }
+    &_section1-right a{
+        font-family: livvic Regular;
+        text-decoration: none;
+        text-decoration: none;
+        font-family: Livvic;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 24px;
+        padding: 9px 33px 11px 32px;
+        @media only screen and (max-width: 573px) {
+            display: none;
+        }
+    }
+
+    &_section2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 165px;
+        align-items: center;
+        &_left {
+            &_title {
+                font-family: Livvic Bold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 100px;
+                line-height: 100px;
+                color: #FFFFFF;
+                @media only screen and (max-width: 1040px) {
+                    font-size: 40px;
+                    line-height: 40px;
+                }            
+                }
+            }
+        &_right {
+            &_line {
+              width: 50px;
+              height: 4px;
+              background: #79C8C7;
+              border: none;
+              @media only screen and (max-width: 1040px) {
+                display: none;
+            }
+        
+            }
+            &_text {
+                font-family: Livvic Regular;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+                width: 450px;
+                margin-top: 79px;
+                @media only screen and (max-width: 1040px) {
+                    margin: 0 auto;
+                    width: 500px;
+                    margin-top: 24px;
+                }
+                @media only screen and (max-width: 573px) {
+                font-size: 15px;
+                line-height: 28px;
+                 width: 327px;
+                }
+            }
+        }
+        @media only screen and (max-width: 1040px) {
+           display: block;
+           width: 100%;
+           text-align: center;
+        }
+    
+    }
+    @media only screen and (max-width: 1040px) {
+        background-position: left bottom;
+        height: 100%;
+        padding-bottom: 256px;
+    }
+}
+
+.main {
+    &_section1 {
+        background: #012F34;
+        padding-top: 140px;
+        padding-bottom: 120px;
+        background-image: url('../images/Group\ 9.svg');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        @media only screen and (max-width: 573px) { 
+            background-position: right top;
+        }
+        &_container {
+            display: flex;
+            justify-content: space-between;
+            @media only screen and (max-width: 1040px) { 
+                display: block;
+            }
+        &_left {
+          &_line {
+            background: #F67E7E;
+            width: 50px;
+            height: 4px;
+            border: none;
+            @media only screen and (max-width: 1040px) { 
+              margin-left: 100px;
+              margin-bottom: 32px;
+            }
+            @media only screen and (max-width: 573px) { 
+                margin-left: 0;
+            }
+          }
+          &_title {
+            font-family: Livvic Bold;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+            width: 445px;
+            margin-top: 54px;
+            color: #FFFFFF;
+            @media only screen and (max-width: 1040px) { 
+                width: 80%;
+                margin: 0 auto;
+            }
+            @media only screen and (max-width: 573px) { 
+                margin-left: 0;
+            }
+          }
+        }
+        &_right {
+            list-style: none;
+            &_list {
+                position: relative;
+                margin-bottom: 32px; 
+                width: 540px;
+                &_link {
+                    text-decoration: none;
+                    &_title {
+                        font-family: Livvic Regular;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #F67E7E;
+                        @media only screen and (max-width: 573px) { 
+                            text-align: center;
+                        }
+                    }
+                    &_text {
+                        font-family: Livvic Regular;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        mix-blend-mode: normal;
+                        opacity: 0.8;
+                        margin-top: 16px;
+                        width: 425px;
+                        @media only screen and (max-width: 573px) { 
+                            width: 327px;
+                            margin: 0 auto;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                    }
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        background-image: url('../images/Group\ 11.svg');
+                        width: 72px;
+                        height: 72px;
+                        left: -90px;
+                        top: 10px;
+                        @media only screen and (max-width: 573px) { 
+                           left: 35%;
+                           top: -70%;
+                        }           
+                    }        
+                }
+                @media only screen and (max-width: 1040px) { 
+                    margin: 0 auto;
+                    width: 65%;
+                    margin-top: 64px;
+                } 
+                @media only screen and (max-width: 573px) { 
+                    width: 327px;
+                    margin-top: 150px;
+                }
+            }
+            &_list2 {
+                position: relative;
+                &_link {
+                    text-decoration: none;
+                    &_title {
+                        font-family: Livvic Regular;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #F67E7E;
+                        @media only screen and (max-width: 573px) { 
+                            text-align: center;
+                        }
+                    }
+                    &_text {
+                        font-family: Livvic Regular;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        mix-blend-mode: normal;
+                        opacity: 0.8;
+                        margin-top: 16px;
+                        width: 425px;
+                        @media only screen and (max-width: 573px) { 
+                            width: 327px;
+                            margin: 0 auto;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 72px;
+                    height: 72px;
+                    background-image: url('../images/Group\ 12.svg');
+                    left: -90px;
+                    top: 10px;
+                    @media only screen and (max-width: 573px) { 
+                        left: 35%;
+                        top: -70%;
+                     }           
+                }
+                @media only screen and (max-width: 1040px) { 
+                    margin: 0 auto;
+                    width: 65%;
+                    margin-top: 64px;
+                }    
+                @media only screen and (max-width: 573px) { 
+                    width: 327px;
+                    margin-top: 150px;
+                }
+            }
+            &_list3 {
+                margin-top: 32px;
+                position: relative;
+                &_link {
+                    text-decoration: none;
+                    &_title {
+                        font-family: Livvic Regular;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #F67E7E;
+                        @media only screen and (max-width: 573px) { 
+                            text-align: center;
+                        } 
+                    }
+                    &_text {
+                        font-family: Livvic Regular;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        mix-blend-mode: normal;
+                        opacity: 0.8;
+                        margin-top: 16px;
+                        width: 425px;
+                        @media only screen and (max-width: 573px) { 
+                            width: 327px;
+                            margin: 0 auto;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                    }
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        background-image: url('../images/Group\ 13.svg');
+                        width: 72px;
+                        height: 72px;
+                        left: -85px;
+                        bottom: 1px;
+                        @media only screen and (max-width: 573px) { 
+                            left: 35%;
+                            top: -70%;
+                         }               
+                    }        
+                }
+                @media only screen and (max-width: 1040px) { 
+                    margin: 0 auto;
+                    width: 65%;
+                    margin-top: 64px;
+                } 
+                @media only screen and (max-width: 573px) { 
+                    width: 327px;
+                    margin-top: 150px;
+                }   
+            }
+        }
+    }
+  }
+}

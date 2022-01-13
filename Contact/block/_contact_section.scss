@@ -1,0 +1,258 @@
+.section {
+    margin-top: 124px !important;
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: 1040px) {
+        display: block;
+    }
+    &_left {
+        &_title {
+            font-family: Livvic Bold;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 100px;
+            color: #FFFFFF;
+            @media only screen and (max-width: 1040px) {
+                text-align: center;
+            }
+            @media only screen and (max-width: 573px) {
+            font-size: 40px;
+            line-height: 40px;
+            }        
+        }
+        &_text {
+            font-family: Livvic Bold;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 48px;
+            color: #F67E7E;
+            @media only screen and (max-width: 1040px) {
+                text-align: center;
+            }        
+        }
+        &_list {
+            list-style-type: none;
+            margin-top: 54px;
+            padding-left: 80px;
+            &_item {
+                font-family: Livvic Bold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+                position: relative;
+                width: 480px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 72px;
+                    height: 72px;
+                    background-image: url('../images/Group\ 11.svg');
+                    left: -90px;
+                    top: -29px;
+                }
+                @media only screen and (max-width: 1040px) {
+                    margin: 0 auto;
+                }  
+                @media only screen and (max-width: 573px) {
+                    width: 273px;
+                }          
+            }
+            &_item1 {
+                font-family: Livvic Bold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+                margin: 52px 0;
+                position: relative;
+                width: 480px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 72px;
+                    height: 72px;
+                    background-image: url('../images/Group\ 12.svg'); 
+                    left: -90px;
+                    top: -25px;
+                }
+                @media only screen and (max-width: 1040px) {
+                    margin: 0 auto;
+                    margin-top: 52px;
+                    margin-bottom: 52px;
+                }   
+                @media only screen and (max-width: 573px) {
+                    width: 273px;
+                }                   
+            }
+            &_item2 {
+                font-family: Livvic Bold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+                position: relative;
+                width: 480px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 72px;
+                    height: 72px;
+                    background-image: url('../images/Group\ 13.svg');
+                    left: -90px;  
+                    top: -23px;
+                }
+                @media only screen and (max-width: 1040px) {
+                    margin: 0 auto;
+                } 
+                @media only screen and (max-width: 573px) {
+                    width: 273px;
+                }                     
+            }
+        }
+    }
+}
+
+.form {
+    width: 540px;
+    @media only screen and (max-width: 1040px) {
+        margin: 0 auto;
+        margin-top: 80px;
+    }  
+    @media only screen and (max-width: 573px) {
+        width: 100%;
+    }                     
+    &_name {
+        font-family: Livvic Regular;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #014E56;
+        opacity: 0.6;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: solid  #79C8C7;
+        width: 540px;
+        height: 42px;
+        padding-left: 16px;
+        @media only screen and (max-width: 573px) {
+            width: 100%;
+        }                         
+    }
+    &_email {
+        font-family: Livvic Regular;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #014E56;
+        opacity: 0.6;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: solid  #79C8C7;
+        width: 540px;
+        height: 42px;
+        padding-left: 16px; 
+        margin-top: 24px;
+        @media only screen and (max-width: 573px) {
+            width: 100%;
+        }                         
+    }
+    &_text {
+        font-family: Livvic Regular;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #014E56;
+        opacity: 0.6;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: solid  #79C8C7;
+        width: 540px;
+        height: 42px;
+        padding-left: 16px;
+        margin-top: 24px;
+        @media only screen and (max-width: 573px) {
+            width: 100%;
+        }                         
+    }
+    &_title {
+        font-family: Livvic Regular;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #014E56;
+        opacity: 0.6;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: solid  #79C8C7;
+        width: 540px;
+        height: 42px;
+        padding-left: 16px;
+        margin-top: 24px;
+        @media only screen and (max-width: 573px) {
+            width: 100%;
+        }                         
+    }
+    &_messages {
+        font-family: Livvic Regular;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #014E56;
+        opacity: 0.6;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: solid  #79C8C7;
+        width: 540px;
+        height: 42px;
+        padding-left: 16px;
+        margin-top: 24px;
+        padding-bottom: 60px;
+        @media only screen and (max-width: 573px) {
+            width: 100%;
+        }                         
+    }
+    &_button {
+        margin-top: 24px;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 24px;
+        padding: 10px 32px;
+        font-family: Livvic Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

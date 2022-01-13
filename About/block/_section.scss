@@ -1,0 +1,151 @@
+.section {
+    background-color: #004047;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    box-sizing: border-box;
+    background-image: url('../images/Group\ 8.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    &_images img{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    &_title {
+        font-family: Livvic Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 64px;
+        @media only screen and (max-width: 573px) {
+        font-size: 32px;
+        line-height: 32px;
+        }
+    }
+    &_cards {
+        list-style-type: none;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &_card1 {
+            width: 350px;
+            height: 253px;
+            background: #012F34;
+            text-align: center;
+            padding-top: 32px;
+            margin-bottom: 76px;
+            &_name {
+                font-family: Livvic Bold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 28px;
+                color: #79C8C7;
+                margin-top: 16px;
+            }
+            &_text {
+                display: none;
+            }
+            &_work {
+                font-family: Livvic Regular;
+                font-size: 15px;
+                line-height: 25px;
+                font-style: italic;
+                color: #FFFFFF;
+            }
+            &_plast {
+                margin-top: 50px;
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                border: none;
+                background: #F67E7E;     
+            }
+        }
+        &_card2 {
+            width: 350px;
+            height: 253px;
+            background: #012F34;
+            text-align: center;
+            padding-top: 32px;
+            @media only screen and (max-width: 573px) {
+                margin-bottom: 52px;
+            }
+        }
+        &_card3 {
+            width: 350px;
+            height: 253px;
+            background: #012F34;
+            text-align: center;
+            padding-top: 32px;
+            @media only screen and (max-width: 1040px) {
+                margin-bottom: 76px;
+            }
+        }
+        &_card4 {
+            width: 350px;
+            height: 253px;
+            background: #012F34;
+            text-align: center;
+            padding-top: 32px;
+            @media only screen and (max-width: 1040px) {
+                margin-bottom: 76px;
+            }
+        }
+        &_card5 {
+            width: 350px;
+            height: 253px;
+            background: #012F34;
+            text-align: center;
+            padding-top: 32px;
+            @media only screen and (max-width: 573px) {
+                margin-bottom: 52px;
+            }
+        }
+        &_card6 {
+            width: 350px;
+            height: 253px;
+            background: #012F34;
+            text-align: center;
+            padding-top: 32px;
+        }
+    }
+}
+.section_cards_card1_2 {
+    .section_cards_card1 {
+        &_text {
+            display: block;
+            text-align: center;
+            text-align: justify;
+            font-family: Livvic Regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            transition: 4s ease;
+            margin-bottom: 38px;
+            margin-top: 14px;
+        }
+    &_plast {
+        background-color:  #79C8C7;
+        transition: 0.3s ease;
+        
+    }
+    &_plast img {
+        transform: rotate(45deg);  
+        transition: 1s ease;  
+    }
+        &_oval {
+            display: none;
+        }
+        &_work {
+            display: none;
+        }
+    }
+}

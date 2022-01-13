@@ -1,0 +1,123 @@
+.main_section2 {
+    background: #004047;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: url('../images/Group\ 8\ Copy.svg');
+    background-repeat: no-repeat;
+
+    &_container {
+        &_title {
+            font-family: Livvic Bold;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+            color: #fff;
+            @media only screen and (max-width: 1040px) { 
+                font-size: 32px;
+                line-height: 32px;
+                width: 450px;
+                margin: 0 auto;
+            }    
+            @media only screen and (max-width: 573px) { 
+                width: 327px;
+            }
+        }
+        &_list {
+            list-style-type: none;
+            display: flex;
+            &_item {
+                margin-top: 92px;
+                width: 350px;
+                background-image: url('../images/“.svg');
+                background-repeat: no-repeat;
+                background-position: center -10px;
+                &_text {
+                    font-family: Livvic Regular;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    position: relative;
+                }
+                &_title1 {
+                    font-family: Livvic Bold;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #79C8C7;
+                    margin-top: 24px;
+                }
+                &_title2 {
+                    font-family: Livvic Regular;
+                    font-size: 13px;
+                    line-height: 18px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin-bottom: 32px;
+                }
+                &_img {
+                   padding-left: 40%;
+                }
+                @media only screen and (max-width: 1040px) { 
+                    margin: 0 auto;
+                    margin-top: 84px;
+                }        
+            }
+            @media only screen and (max-width: 1040px) { 
+                display: block;
+            }    
+        }
+    }
+}
+.main_section3 {
+    background: #F67E7E;
+    padding: 76px 0;
+    background-image: url('../images/footer-img.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    @media only screen and (max-width: 573px) { 
+        padding: 150px 0;
+    }
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_title {
+            font-family: Livvic Bold;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+            color: #012F34;
+            @media only screen and (max-width: 573px) { 
+                text-align: center;
+                margin-bottom: 32px;
+            }    
+        }
+        &_link a{
+            text-decoration: none;
+            font-family: Livvic Regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: #012F34;
+            border: 2px solid #012F34;
+            box-sizing: border-box;
+            border-radius: 24px;
+            padding: 9px 33px 11px 32px;
+            @media only screen and (max-width: 573px) { 
+                margin: 25%;
+            }    
+        }
+        @media only screen and (max-width: 573px) { 
+            display: block;
+        }
+    }
+}
